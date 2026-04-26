@@ -1,0 +1,24 @@
+{
+  "name": "typescript-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimJayhyun/typescript-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/KimJayhyun/typescript-course/issues"
+  },
+  "homepage": "https://github.com/KimJayhyun/typescript-course#readme",
+  "devDependencies": {
+    "@types/node": "^25.6.0"
+  }
+}

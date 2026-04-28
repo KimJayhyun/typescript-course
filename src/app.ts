@@ -23,3 +23,10 @@ const add = (...numbers: number[]) => {
 };
 
 const addedNumbers = add(5, 10, 15, -15, -10);
+
+// =========== //
+//  Array & Object Destructuring //
+
+const [hobby1, hobby2, ...remainingHobbies] = hobbies;
+const { name: maxName, age } = person;
+const { name: personName, age: personAge } = person;

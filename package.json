@@ -1,24 +1,19 @@
 {
-  "name": "typescript-course",
+  "name": "understanding-typescript",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Understanding TypeScript Course Setup",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KimJayhyun/typescript-course.git"
-  },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "typescript",
+    "course"
+  ],
+  "author": "Maximilian Schwarzmüller",
   "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/KimJayhyun/typescript-course/issues"
-  },
-  "homepage": "https://github.com/KimJayhyun/typescript-course#readme",
   "devDependencies": {
-    "@types/node": "^25.6.0"
+    "lite-server": "^2.5.4"
   }
 }
